@@ -12,8 +12,8 @@ export default function Footer() {
           <Image
             src="/images/vivaflare.png"
             alt="logo"
-            height={60}
-            width={150}
+            height={50}
+            width={115}
           />
         </div>
   
