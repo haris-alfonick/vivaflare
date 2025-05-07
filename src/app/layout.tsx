@@ -5,7 +5,7 @@ import Header from "./components/header";
 import Footer from "./components/footer";
 
 const rubik = Rubik({
-  weight: "600",
+  weight: "700",
   variable: "--font-rubik",
   subsets: ["latin"],
 });
@@ -32,7 +32,7 @@ export default function RootLayout({
         className={`${rubik.variable} ${inter.variable} antialiased overflow-hidden`}
       >
         <Header />
-        <main className="h-[calc(100vh_-_181px)]">
+        <main className="2xl:h-[calc(100vh_-_181px)] h-[calc(100vh_-_165px)]">
         {children}
         </main>
         <Footer />
