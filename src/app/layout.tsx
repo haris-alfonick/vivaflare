@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Inter, Rubik } from "next/font/google";
 import "./globals.css";
+import Header from "./components/header";
+import Footer from "./components/footer";
 
 const rubik = Rubik({
   weight: "600",
@@ -29,7 +31,11 @@ export default function RootLayout({
       <body
         className={`${rubik.variable} ${inter.variable} antialiased`}
       >
+        <Header />
+        <main className="h-[calc(100vh_-_182px)]">
         {children}
+        </main>
+        <Footer />
       </body>
     </html>
   );
