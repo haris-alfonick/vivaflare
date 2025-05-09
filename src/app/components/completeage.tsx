@@ -2,10 +2,10 @@ import Link from "next/link"
 
 export default function Completeage() {
     return (
-        <section className="relative h-full bg-[#14121B]">
+        <section className="relative h-full bg-[#14121B] m-7 mb-0! rounded-tl-[30px] rounded-tr-[30px]">
             <div className="text-white text-center absolute top-0 right-0 w-fit mx-auto mt-16 h-[100%] bottom-0 left-0 sm:px-0 px-4 [&_h2]:2xl:text-[42px] sm:[&_h2]:w-[549px] [&_h2]:w-[100%] [&_h2]:md:text-[32px] [&_h2]:text-[25px] [&_h2]:font-bold [&_p]:text-sm [&_p]:2xl:text-[16px]">
                 <h2 className="inter">Confirm Your Age</h2>
-                <p>We’re committed to providing a safe and age-appropriate community experience.</p>
+                <p>We&apos;re committed to providing a safe and age-appropriate community experience.</p>
                 <form className="pt-5 space-y-2 2xl:space-y-4 [&_input]:px-6 [&_input]:py-3 [&_input]:rounded-full [&_input]:bg-[#1D1A24] [&_input]:text-white [&_input]:w-[100%] md:[&_input]:w-[549px] [&_input]:placeholder-[#A6A6A6] [&_input]:text-sm [&_input]:focus:outline-none [&_label]:font-[600] [&_p]:text-start [&_p]:font-[600] [&_p]:py-0 2xl:[&_p]:py-10" action="#">
                     <div className="flex 2xl:gap-2 gap-1 items-start flex-col">
                         <label>*Enter Your Age</label>

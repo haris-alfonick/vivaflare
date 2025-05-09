@@ -3,10 +3,10 @@ import Link from "next/link"
 
 export default function Getearlyaccess() {
     return (
-        <section className="relative h-full bg-[#14121B]">
+        <section className="relative h-full bg-[#14121B] m-7 mb-0! rounded-tl-[30px] rounded-tr-[30px]">
             <div className="text-white text-center absolute top-0 right-0 w-fit m-auto h-fit bottom-0 left-0 sm:px-0 px-4 [&_h2]:2xl:text-[42px] [&_h2]:md:text-[32px] [&_h2]:text-[25px] [&_h2]:font-bold [&_p]:text-sm [&_p]:2xl:text-[16px]">
                 <h2 className="inter">Viva Flare Welcomes You!</h2>
-                <p>Let’s get you signed in.</p>
+                <p>Let&apos;s get you signed in.</p>
                 <Link href="#" className="mx-auto w-fit block">
                     <Image
                         src="/images/mail.png"

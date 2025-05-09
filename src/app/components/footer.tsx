@@ -24,12 +24,12 @@ export default function Footer() {
         <Link href="#"><li>Legal Center</li></Link>
       </ul>
 
-      <div className="flex items-center space-x-3 [&_svg]:w-[37px] [&_svg]:text-[#000000] [&_svg]:hover:text-[#d40078] [&_svg]:py-[7px] [&_svg]:bg-white [&_svg]:rounded-full [&_svg]:h-[36px]">
-        <Link href="#"><FontAwesomeIcon icon={faEnvelope} /></Link>
-        <Link href="#"><FontAwesomeIcon icon={faInstagram} /></Link>
-        <Link href="#"><FontAwesomeIcon icon={faThreads} /></Link>
-        <Link href="#"><FontAwesomeIcon icon={faTiktok} /></Link>
-        <Link href="#"><FontAwesomeIcon icon={faLinkedinIn} /></Link>
+      <div className="flex items-center space-x-3 [&_svg]:text-[#000000] [&_svg]:hover:text-[#d40078] max-sm:[&_svg]:py-[10px] [&_svg]:py-[7px] [&_svg]:bg-white [&_svg]:rounded-full">
+        <Link href="#"><FontAwesomeIcon icon={faEnvelope} width={37} height={36}/></Link>
+        <Link href="#"><FontAwesomeIcon icon={faInstagram} width={37} height={36}/></Link>
+        <Link href="#"><FontAwesomeIcon icon={faThreads} width={37} height={36}/></Link>
+        <Link href="#"><FontAwesomeIcon icon={faTiktok} width={37} height={36}/></Link>
+        <Link href="#"><FontAwesomeIcon icon={faLinkedinIn} width={37} height={36}/></Link>
       </div>
     </footer>
   );

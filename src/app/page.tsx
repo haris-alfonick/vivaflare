@@ -1,6 +1,9 @@
 import Completeage from "./components/completeage";
 import CompleteProfile from "./components/completeprofile";
+import Congratulation from "./components/congratulation";
+import Faq from "./components/faq";
 import Getearlyaccess from "./components/getearlyaccess";
+import Interest from "./components/interest";
 import Joinus from "./components/joinus";
 import Signedin from "./components/signedin";
 import TheCall from "./components/thecall";
@@ -18,6 +21,9 @@ export default function Home() {
       {/* <CompleteProfile /> */}
       {/* <Completeage /> */}
       <Welcome />
+      {/* <Interest /> */}
+      {/* <Congratulation /> */}
+      {/* <Faq /> */}
       </>
     ) 
 }
