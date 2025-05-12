@@ -227,11 +227,11 @@ button:hover, Link:hover {
   100% { right: 100%; opacity: 0; }
 }
 
-@media (max-width: 1000px) {
+/* @media (max-width: 1000px) {
   .scrollbar {
     overflow: hidden;
   }
-}
+} */
 
 @media (max-width: 640px) {
   .headerSearch::before {

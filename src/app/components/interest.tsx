@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export default function Interest() {
     return (
-        <section className="relative h-full bg-[#14121B] scrollbar m-7 mb-0! rounded-tl-[30px] rounded-tr-[30px]">
+        <section className="relative h-full bg-[#14121B] scrollbar m-3 lg:m-7 mb-0! rounded-tl-[30px] rounded-tr-[30px]">
             <div className="text-white text-center absolute top-0 right-0 w-fit mx-auto m-auto h-[96%] 2xl:h-fit bottom-0 left-0 sm:px-0 px-4 [&_h2]:2xl:text-[42px] sm:[&_h2]:w-[549px] [&_h2]:w-[100%] 2xl:[&_h2]:m-auto [&_h2]:md:text-[32px] [&_h2]:text-[25px] [&_h2]:font-bold [&_p]:text-center [&_p]:text-[13px] [&_p]:2xl:text-[17px]">
                 <h2 className="inter">Viva Flare Welcomes You!</h2>
                 <p>We care about what you love.</p>

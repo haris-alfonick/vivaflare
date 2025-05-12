@@ -29,10 +29,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${rubik.variable} ${inter.variable} bg-[#101010] antialiased overflow-hidden max-sm:overflow-auto`}
+        className={`${rubik.variable} ${inter.variable} bg-[#101010] antialiased overflow-hidden`}
       >
         <Header />
-        <main className="2xl:h-[calc(100vh_-_169px)] h-[calc(100vh_-_152px)] max-lg:h-[calc(100vh_-_-147px)]">
+        <main className="2xl:h-[calc(100vh_-_198px)] h-[calc(100vh_-_181px)] max-lg:max-h-max">
         {children}
         </main>
         <Footer />
