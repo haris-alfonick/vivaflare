@@ -10,7 +10,7 @@ export default function Whoweare() {
           <h2 className="inter">Who We Are</h2>
           <h3>VivaFlare!</h3>
           <strong className="rubik">A creation platform built for event lovers, planners, and trendsetters.</strong>
-          <p>We empower people to discover, design, and bring events to life, whether it's a backyard concert, a fashion show, a music festival, or a professional convention. More than just ticketing, VivaFlare plans to connect communities through shared experiences, creative tools, and meaningful collaboration. Our platform celebrates the full creative process, by giving every contributor a seat at the table. VivaFlare is where creativity meets culture, and where every moment becomes an unforgettable movement.</p>
+          <p>We empower people to discover, design, and bring events to life, whether it&apos;s a backyard concert, a fashion show, a music festival, or a professional convention. More than just ticketing, VivaFlare plans to connect communities through shared experiences, creative tools, and meaningful collaboration. Our platform celebrates the full creative process, by giving every contributor a seat at the table. VivaFlare is where creativity meets culture, and where every moment becomes an unforgettable movement.</p>
           <Link href="#"><button className="inter">
             Join Us
           </button></Link>
