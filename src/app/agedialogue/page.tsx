@@ -40,7 +40,7 @@
 //                className="mx-auto max-sm:w-[65px]"
 //               />
 //               <DialogDescription className="pt-4">
-//                 Hey there! Our platform is for users 18 and up right now, but we're working on making it available for younger users soon. We can’t wait to have you onboard when the time comes!
+//                 Hey there! Our platform is for users 18 and up right now, but we&apos;re working on making it available for younger users soon. We can&apos;t wait to have you onboard when the time comes!
 //               </DialogDescription>
 //               <Link href="/" className="w-fit m-auto">
 //               <button className="bg-[#F80C5B] text-white w-[150px] text-sm rounded-full mt-4 py-3 mx-auto">Go to Homepage</button>
@@ -103,7 +103,7 @@ export default function AgeDialogue() {
                 className="mx-auto max-sm:w-[65px]"
               />
               <DialogDescription className="pt-4">
-                Hey there! Our platform is for users 18 and up right now, but we're working on making it available for younger users soon. We can’t wait to have you onboard when the time comes!
+                Hey there! Our platform is for users 18 and up right now, but we&apos;re working on making it available for younger users soon. We can&apos;t wait to have you onboard when the time comes!
               </DialogDescription>
        <Link href="/" className="w-fit m-auto">
               <button className="bg-[#F80C5B] text-white w-[150px] text-sm rounded-full mt-4 py-3 mx-auto">Go to Homepage</button>
