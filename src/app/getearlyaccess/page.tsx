@@ -40,7 +40,7 @@ export default function Getearlyaccess() {
         <p className="text-sm py-6 2xl:text-[16px]">I am not a robot reCAPTCHA</p>
         <p className="text-sm 2xl:text-[16px]">Don&apos;t have an account? <Link href="#"><strong>Sign Up</strong></Link></p>
         <p className="caveat !text-[19px] py-6">Change is in the air.</p>
-        <Link href=""><button className="bg-[#F80C5B] hover:bg-[#7238fd] mb-6 transition-all text-sm rounded-full py-2 2xl:py-3 md:w-[549px] w-[100%]">Next</button></Link>
+        <Link href="/signedin"><button className="bg-[#F80C5B] hover:bg-[#7238fd] mb-6 transition-all text-sm rounded-full py-2 2xl:py-3 md:w-[549px] w-[100%]">Next</button></Link>
 
       </div>
     </section>
