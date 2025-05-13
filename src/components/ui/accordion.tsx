@@ -20,7 +20,7 @@ function AccordionItem({
   return (
     <AccordionPrimitive.Item
       data-slot="accordion-item"
-      className={cn("bg-[#33353F] px-2 rounded-[20px]", className)}
+      className={cn("bg-[#33353F] px-2 rounded-[25px]", className)}
       {...props}
     />
   )

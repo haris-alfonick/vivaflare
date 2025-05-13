@@ -2,7 +2,7 @@ import Link from "next/link"
 
 export default function Signedin() {
     return (
-        <section className="relative h-full bg-[#14121B] m-3 lg:m-7 mb-0! rounded-tl-[30px] rounded-tr-[30px]">
+        <section className="relative bg-[#14121B] m-3 lg:m-7 mb-0! rounded-tl-[30px] rounded-tr-[30px] 2xl:h-[calc(100vh_-_198px)] h-[calc(100vh_-_181px)]">
             <div className="text-white text-center absolute top-0 right-0 w-fit mx-auto mt-6 h-full bottom-0 left-0 sm:px-0 px-4 [&_h2]:2xl:text-[42px] sm:[&_h2]:w-[549px] [&_h2]:w-[100%] [&_h2]:md:text-[32px] [&_h2]:text-[25px] [&_h2]:font-bold [&_p]:text-sm [&_p]:2xl:text-[16px]">
                 <h2 className="inter">You&apos;ve signed in — now let&apos;s make it yours!</h2>
                 <p>Create a unique username to personalize your profile.</p>
@@ -17,7 +17,7 @@ export default function Signedin() {
                         />
                     </div>
                 </form>
-                <Link href="#"><button className="bg-[#F80C5B] hover:bg-[#7238fd] transition-all sm:mx-0 text-sm absolute left-0 right-0 bottom-[60px] rounded-full py-2 2xl:py-3 md:w-[549px] w-[93%] mx-auto">Next</button></Link>
+                <Link href="/completeprofile"><button className="bg-[#F80C5B] hover:bg-[#7238fd] transition-all sm:mx-0 text-sm absolute left-0 right-0 bottom-[60px] rounded-full py-2 2xl:py-3 md:w-[549px] w-[93%] mx-auto">Next</button></Link>
 
             </div>
         </section>

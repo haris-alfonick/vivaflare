@@ -10,7 +10,7 @@ export default function Footer() {
     <>
     <footer className="bg-[#000000] flex-row max-md:hidden text-white 2xl:p-6 p-4 gap-4 flex items-center justify-between">
       <div>
-      <Link href="">
+      <Link href="/">
       <Image
           src="/images/vivaflare.png"
           alt="logo"
@@ -21,9 +21,9 @@ export default function Footer() {
       </div>
 
       <ul className="flex whitespace-nowrap align-middle space-x-4 [&_li]:hover:text-transparent [&_li]:hover:bg-gradient-to-l [&_li]:hover:from-[#d3007d] [&_li]:hover:to-[#743bf6] [&_li]:hover:bg-clip-text transition-all">
-        <Link href="#"><li>About Us</li></Link>
+        <Link href="/whoweare"><li>About Us</li></Link>
         <Link href="#"><li>The Squad</li></Link>
-        <Link href="#"><li>FAQs</li></Link>
+        <Link href="/faq"><li>FAQs</li></Link>
         <Link href="#"><li>Legal Center</li></Link>
       </ul>
 
@@ -38,7 +38,7 @@ export default function Footer() {
     <footer className="bg-[#000000] max-md:flex text-white px-4 py-[10px] hidden flex-col items-center md:justify-between gap-4">
       
     <div className="w-full flex items-center justify-between md:w-auto">
-      <Link href="">
+      <Link href="#">
         <Image
         src="/images/vivaflare.png"
         alt="logo"

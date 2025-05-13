@@ -3,7 +3,7 @@ import Link from "next/link"
 
 export default function Joinus() {
   return (
-    <section className="relative h-full bg-[#14121B] scrollbar m-3 lg:m-7 mb-0! rounded-tl-[30px] rounded-tr-[30px]">
+    <section className="relative bg-[#14121B] scrollbar overflow-x-hidden! m-3 lg:m-7 mb-0! rounded-tl-[30px] rounded-tr-[30px] 2xl:h-[calc(100vh_-_198px)] h-[calc(100vh_-_181px)]">
       <div className="grid grid-cols-12 gap-4 container mx-auto items-center align-middle absolute top-0 right-0 2xl:mt-0 mt-6 h-full bottom-0 left-0">
         <div className="lg:col-span-6 col-span-12 max-lg:mx-auto">
           <Image
@@ -15,9 +15,9 @@ export default function Joinus() {
           />
         </div>
 
-        <div className="mx-auto px-[15px] md:px-0 lg:order-[1] order-[-1] lg:col-span-6 col-span-12 text-white [&_h2]:font-extrabold [&_h2]:leading-[0.3] max-md:[&_h2]:text-[22px] [&_h2]:lg:text-[30px] [&_h2]:2xl:text-[50px] [&_h3]:text-[50px] [&_h3]:md:text-[65px] [&_h3]:2xl:text-[85px] [&_h3]:text-transparent [&_h3]:leading-none [&_h3]:bg-gradient-to-l [&_h3]:from-[#F80C67] [&_h3]:to-[#ED1C24] [&_h3]:bg-clip-text [&_h3]:font-[600]">
+        <div className="mx-auto px-[15px] md:px-0 lg:order-[1] order-[-1] lg:col-span-6 col-span-12 text-white [&_h2]:font-extrabold [&_h2]:leading-[0.6] max-md:[&_h2]:text-[22px] [&_h2]:lg:text-[30px] [&_h2]:2xl:text-[50px] [&_h3]:text-[50px] [&_h3]:md:text-[65px] [&_h3]:2xl:text-[85px] [&_h3]:text-transparent [&_h3]:leading-none [&_h3]:bg-gradient-to-l [&_h3]:from-[#F80C67] [&_h3]:to-[#ED1C24] [&_h3]:bg-clip-text [&_h3]:font-[600]">
           <h2 className="inter">No Pressure, but...</h2>
-          <h3>Join Us!</h3>
+          <h3 className="caveat">Join Us!</h3>
 
           <div className="slider-container sm:w-[520px] w-[100%] overflow-hidden">
             <div className="flex [&_p]:pt-[8px] [&_strong]:block [&_strong]:pt-[8px] [&_strong]:text-[25px] [&_strong]:2xl:text-[30px] [&_div]:w-full">
@@ -54,7 +54,7 @@ export default function Joinus() {
             </div>
           </div>
 
-          <div className="flex flex-wrap gap-3 pt-4 pb-6 [&_button]:border [&_button]:border-white [&_button]:text-[12px] [&_button]:font-semibold [&_button]:px-6 [&_button]:py-[5px] [&_button]: [&_button]:text-white [&_button]:rounded-full">
+          <div className="flex flex-wrap gap-3 max-sm:py-3 py-6 [&_button]:border [&_button]:border-white [&_button]:text-[11px] max-sm:[&_button]:text-[10px] 2xl:[&_button]:text-[14px] [&_button]:font-semibold [&_button]:px-6 [&_button]:py-[5px] [&_button]: [&_button]:text-white [&_button]:rounded-full">
             <Link href="#">
               <button className="bg-white text-black!">
                 Creatives
@@ -81,7 +81,7 @@ export default function Joinus() {
               </button>
             </Link>
           </div>
-          <Link href="">
+          <Link href="/getearlyaccess">
             <button className="mb-6 bg-[#F80C5B] hover:bg-gradient-to-l hover:from-[#ef005d] hover:to-[#47b4d5] inter px-6 py-3 rounded-full text-white font-semibold text-sm transition-all">
               Get Early Access
             </button>
