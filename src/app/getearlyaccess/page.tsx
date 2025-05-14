@@ -3,8 +3,9 @@ import Link from "next/link"
 
 export default function Getearlyaccess() {
   return (
-    <section className="relative scrollbar bg-[#14121B] m-3 lg:m-7 mb-0! rounded-tl-[30px] rounded-tr-[30px] 2xl:h-[calc(100vh_-_198px)] h-[calc(100vh_-_181px)] max-md:h-[calc(100vh_-_215px)]">
-      <div className="text-white text-center absolute top-0 right-0 w-fit mx-auto mt-3 2xl:m-auto! h-fit bottom-0 left-0 sm:px-0 px-4 [&_h2]:2xl:text-[42px] [&_h2]:md:text-[32px] [&_h2]:text-[25px] [&_h2]:font-bold [&_p]:text-sm [&_p]:2xl:text-[16px]">
+<section className="relative scrollbar h-full pt-[22px] px-[25px] pb-0">
+<div className="bg-[#14121B] h-full rounded-tl-[30px] rounded-tr-[30px]">
+        <div className="text-white text-center pt-6 absolute top-0 right-0 w-fit max-md:m-auto mx-auto mt-3 2xl:m-auto! h-fit bottom-0 left-0 sm:px-0 px-4 [&_h2]:2xl:text-[42px] [&_h2]:md:text-[32px] [&_h2]:text-[25px] [&_h2]:font-bold [&_p]:text-sm [&_p]:2xl:text-[16px]">
         <h2 className="inter">Viva Flare Welcomes You!</h2>
         <p>Let&apos;s get you signed in.</p>
         <Link href="#" className="mx-auto w-fit block">
@@ -39,9 +40,10 @@ export default function Getearlyaccess() {
         </form>
         <p className="text-sm py-6 2xl:text-[16px]">I am not a robot reCAPTCHA</p>
         <p className="text-sm 2xl:text-[16px]">Don&apos;t have an account? <Link href="#"><strong>Sign Up</strong></Link></p>
-        <p className="caveat !text-[19px] py-6">Change is in the air.</p>
+        <p className="caveat !text-[20px] py-6">Change is in the air.</p>
         <Link href="/signedin"><button className="bg-[#F80C5B] hover:bg-[#7238fd] mb-6 transition-all text-sm rounded-full py-2 2xl:py-3 md:w-[549px] w-[100%]">Next</button></Link>
 
+      </div>
       </div>
     </section>
   )

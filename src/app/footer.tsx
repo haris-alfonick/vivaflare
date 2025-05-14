@@ -8,7 +8,7 @@ export default function Footer() {
   return (
     <>
     <footer className="bg-[#000000] flex-col md:flex-row text-white 2xl:p-6 p-4 gap-4 flex items-center justify-between">
-      <div>
+      <div className="md:w-[172px]">
       <Link href="/">
       <Image
           src="/images/vivaflare.png"

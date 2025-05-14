@@ -38,7 +38,7 @@ export default function RootLayout({
         className={`${rubik.variable} ${inter.variable} ${caveat.variable} bg-[#101010] antialiased md:overflow-hidden overflow-scroll`}
       >
         <Header />
-        <main>
+        <main className="2xl:h-[calc(100vh_-_169px)] h-[calc(100vh_-_152px)] max-lg:h-[calc(100vh_-_153px)] max-md:h-[calc(100vh_-_-510px)]">
         {children}
         </main>
         <Footer />
