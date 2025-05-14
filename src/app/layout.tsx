@@ -35,7 +35,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${rubik.variable} ${inter.variable} ${caveat.variable} bg-[#101010] antialiased overflow-hidden`}
+        className={`${rubik.variable} ${inter.variable} ${caveat.variable} bg-[#101010] antialiased md:overflow-hidden overflow-scroll`}
       >
         <Header />
         <main>

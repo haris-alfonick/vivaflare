@@ -112,11 +112,20 @@ button:hover, Link:hover {
 
 
 @media (max-width: 640px) {
+.headerSearch::before {
+  display: none;
+}
   .headerSearch::before {
     right: 45px;
     height: 20px;
   }
   .slider-container {
     height: 220px;
+  }
+}
+
+@media (max-width: 768px) {
+  .scrollbar {
+    overflow: hidden;
   }
 }

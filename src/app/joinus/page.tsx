@@ -3,7 +3,7 @@ import Link from "next/link"
 
 export default function Joinus() {
   return (
-    <section className="relative bg-[#14121B] scrollbar overflow-x-hidden! m-3 lg:m-7 mb-0! rounded-tl-[30px] rounded-tr-[30px] 2xl:h-[calc(100vh_-_198px)] h-[calc(100vh_-_181px)]">
+    <section className="relative bg-[#14121B] scrollbar overflow-x-hidden! m-3 lg:m-7 mb-0! rounded-tl-[30px] rounded-tr-[30px] 2xl:h-[calc(100vh_-_198px)] h-[calc(100vh_-_181px)] max-md:h-[calc(100vh_+_150px)]">
       <div className="grid grid-cols-12 gap-4 container mx-auto items-center align-middle absolute top-0 right-0 2xl:mt-0 mt-6 h-full bottom-0 left-0">
         <div className="lg:col-span-6 col-span-12 max-lg:mx-auto">
           <Image

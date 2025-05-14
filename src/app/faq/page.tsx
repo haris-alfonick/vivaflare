@@ -7,7 +7,7 @@ import {
 
 export default function Faq() {
   return (
-    <section className="relative bg-[#14121B] m-3 lg:m-7 mb-0! rounded-tl-[30px] rounded-tr-[30px] scrollbar 2xl:h-[calc(100vh_-_198px)] h-[calc(100vh_-_181px)]">
+    <section className="relative bg-[#14121B] m-3 lg:m-7 mb-0! rounded-tl-[30px] rounded-tr-[30px] scrollbar 2xl:h-[calc(100vh_-_198px)] h-[calc(100vh_-_181px)] max-md:h-[calc(100vh_+_220px)]">
       <div className="text-white text-center absolute top-0 right-0 w-fit m-auto 2xl:h-fit h-full bottom-0 left-0 sm:px-0 px-4 2xl:[&_h2]:pt-0 [&_h2]:pt-4 [&_h2]:mx-auto [&_h2]:2xl:text-[42px] sm:[&_h2]:w-[549px] [&_h2]:w-[100%] [&_h2]:md:text-[32px] [&_h2]:text-[25px] [&_h2]:font-bold [&_p]:text-sm [&_p]:2xl:text-[16px]">
         <h2 className="inter">FAQ&apos;S</h2>
         <p>We&apos;re committed to providing a safe and age-appropriate community experience.</p>

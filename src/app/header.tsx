@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function Header() {
 
   return (
-    <header className="bg-[#000000] text-white space-x-4 max-sm:px-2 px-6 py-4 flex items-center justify-between">
+    <header className="bg-[#000000] text-white max-md:space-x-2 space-x-4 max-sm:px-2 px-6 py-4 flex items-center justify-between">
       <div>
       <Link href="/">
         <Image
@@ -19,7 +19,7 @@ export default function Header() {
         </Link>
       </div>
 
-      <div className="headerSearch relative mr-0 flex align-middle items-center w-[50%] max-w-[50%] [&_input]:w-full [&_input]:px-10 [&_input]:py-3 rounded-full pr-6 max-sm:pr-4 bg-[#1D1A24] [&_input]:text-white [&_input]:text-sm max-sm:[&_input]:pl-3 max-sm:[&_input]:pr-6 max-sm:[&_input]:py-[8px] [&_input]:placeholder-[#A6A6A6] [&_input]:focus:outline-none [&_svg]:text-[#A6A6A6] [&_svg]:!h-fit">
+      <div className="headerSearch relative mr-0 flex align-middle items-center w-[50%] max-w-[50%] [&_input]:w-full [&_input]:px-10 [&_input]:py-3 rounded-full pr-6 max-sm:pr-4 bg-[#1D1A24] [&_input]:text-white [&_input]:text-sm max-sm:[&_input]:pl-3 max-sm:[&_input]:pr-2 max-sm:[&_input]:py-[8px] [&_input]:placeholder-[#A6A6A6] [&_input]:focus:outline-none [&_svg]:text-[#A6A6A6] [&_svg]:!h-fit">
         <input
           type="text"
           placeholder="Discover what's happening!"
