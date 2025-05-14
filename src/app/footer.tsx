@@ -26,7 +26,7 @@ export default function Footer() {
         <Link href="#"><li>Legal Center</li></Link>
       </ul>
 
-      <div className="flex items-center space-x-3 [&_svg]:text-[#000000] [&_svg]:hover:text-[#d40078] [&_svg]:py-[7px] [&_svg]:px-0 [&_svg]:bg-white [&_svg]:rounded-full">
+      <div className="flex items-center space-x-3 [&_svg]:text-[#000000] [&_svg]:hover:text-[#d40078] [&_svg]:py-[9px] [&_svg]:px-0 [&_svg]:bg-white [&_svg]:rounded-full">
         <Link href="https://www.instagram.com/viva_flare/"><FontAwesomeIcon icon={faInstagram} width={34} height={34} /></Link>
         <Link href="https://www.threads.com/@viva_flare"><FontAwesomeIcon icon={faThreads} width={34} height={34} /></Link>
         <Link href="https://www.tiktok.com/@viva_flare"><FontAwesomeIcon icon={faTiktok} width={34} height={34} /></Link>
